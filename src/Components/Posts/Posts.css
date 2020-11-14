@@ -6,13 +6,15 @@
 }
 .post__image{
     width:100%;
-    object-fit: contain;
+    object-fit: cover;
+    height:250px;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
 }
 
 .post__text{
     font-weight: normal;
+    padding: 10px;
 }
 
 .post__header{
@@ -23,4 +25,24 @@
 
 .post__avatar{
     margin-right: 10px;
+}
+
+.form {
+    display: flex;
+    margin-top:10px;
+}
+
+.post__input{
+    flex:1;
+    border: none;
+    padding: 10px;
+    border-top:1px solid lightgray;
+    outline: none;
+}
+.post__button{
+    flex:0;
+}
+
+.post__comments{
+    padding: 20px;
 }
