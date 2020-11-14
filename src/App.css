@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.app{
+    background-color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app__header{
+    object-fit: contain;
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.app__headerImage {
+    width:120px;
+}
+
+.app__signup{
+    display: flex;
+    flex-direction: column;
+}
