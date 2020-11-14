@@ -176,20 +176,6 @@ const App = () => {
                         ))
                     }
                 </div>
-                <div className="app__postsRight">
-                        <InstagramEmbed
-                    url='https://instagram.com/p/B_uf9dmAGPw/'
-                    maxWidth={320}
-                    hideCaption={false}
-                    containerTagName='div'
-                    protocol=''
-                    injectScript
-                    onLoading={() => {}}
-                    onSuccess={() => {}}
-                    onAfterRender={() => {}}
-                    onFailure={() => {}}
-        />
-                </div>
          </div>
     
        <div className='loginForm'>
