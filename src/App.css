@@ -40,3 +40,11 @@
 .app__postsRight{
     margin-left:20px;
 }
+.loginForm{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    background-color: white;
+    z-index:12;
+    border-top:1px solid lightgray;
+}

@@ -191,13 +191,14 @@ const App = () => {
         />
                 </div>
          </div>
-       
-         {user?.displayName ? (
-            <ImageUpload username={user.displayName}/>
-        ) :
-            <h3>Login To Upload</h3>
-        }
     
+       <div className='loginForm'>
+            {user?.displayName ? (
+                <ImageUpload username={user.displayName}/>
+            ) :
+                <h3>Login To Upload</h3>
+            }
+       </div>
         </div>
     )
 }
